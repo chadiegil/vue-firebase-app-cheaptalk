@@ -2,16 +2,14 @@ import { getFirestore } from "firebase/firestore";
 
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
-
 const firebaseConfig = {
-  apiKey: "AIzaSyAwvoGVU-QIQeWtUMGAsr2_Krb1Gxc1oo8",
-  authDomain: "mini-capstone-firebase-d7d40.firebaseapp.com",
-  projectId: "mini-capstone-firebase-d7d40",
-  storageBucket: "mini-capstone-firebase-d7d40.appspot.com",
-  messagingSenderId: "125752017597",
-  appId: "1:125752017597:web:ae1ac14df0c7782ac36dd4",
+  apiKey: "AIzaSyDEvhHSl_ncvF13SFpP9xV2aLU1nIoXnzg",
+  authDomain: "vue-cheaptalk-2.firebaseapp.com",
+  projectId: "vue-cheaptalk-2",
+  storageBucket: "vue-cheaptalk-2.appspot.com",
+  messagingSenderId: "335972458365",
+  appId: "1:335972458365:web:c187d96498ca0f7edd7614",
 };
-
 const app = initializeApp(firebaseConfig);
 
 const auth = getAuth(app);
